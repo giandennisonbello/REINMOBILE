@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">REIN</string>
+    <string name="city_prompt">City</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="token">com.example.alexisellaine.rein.Network.Preconfig.savetoken</string>
+    <string name="pref_id">com.example.alexisellaine.rein.Network.Preconfig.saveID</string>
+    <string name="reportID">com.example.alexisellaine.rein.Network.Preconfig.reportID</string>
+    <string name="pref_file">file</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--SPINNER FOR CITY-->
+    <string-array name="cities">
+        <item>City</item>
+        <item>Caloocan</item>
+        <item>Las Pinas</item>
+        <item>Makati</item>
+        <item>Malabon</item>
+        <item>Manila</item>
+        <item>Marikina</item>
+        <item>Muntinlupa</item>
+        <item>Navotas</item>
+        <item>Paranaque</item>
+        <item>Pasay</item>
+        <item>Pasig</item>
+        <item>Pateros</item>
+        <item>Quezon City</item>
+        <item>San Juan</item>
+        <item>Taguig</item>
+        <item>Valenzuela</item>
+    </string-array>
+
+    <string name="carType_prompt">Car Type</string>
+    <string-array name="cartypes">
+        <item>Hatchback</item>
+        <item>Sedan</item>
+        <item>MPV</item>
+        <item>SUV</item>
+        <item>Crossover</item>
+        <item>Coupe</item>
+        <item>Convertible</item>
+        <item>Van</item>
+        <item>RVs</item>
+    </string-array>
+
+
+</resources>

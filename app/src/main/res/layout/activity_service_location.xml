@@ -1,0 +1,66 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceLocation"
+    android:background="@color/regbg">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="400dp"
+        android:layout_height="493dp"
+        android:layout_marginBottom="443dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        mapbox:mapbox_cameraTargetLat="40.73581"
+        mapbox:mapbox_cameraTargetLng="-73.99155"
+        mapbox:mapbox_cameraZoom="11"
+        mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10">
+
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/DetailDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/regbg"
+        android:fillViewport="true"
+
+        app:layout_anchor="@+id/mapView"
+        app:layout_anchorGravity="top|center">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DITO LALAGAY YUNG DETAILS"
+            android:textColor="@color/black" />
+    </android.support.v4.widget.NestedScrollView>
+
+    <EditText
+        android:id="@+id/txtLocation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-480dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_add_location_black_24dp"
+        android:ems="10"
+        android:hint="  Location"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15sp" />
+
+</android.support.design.widget.CoordinatorLayout>
